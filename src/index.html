@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro/Entrar</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <main>
+        <article id="registrar">
+            <h1>Registrar</h1>
+                    <label for="email_registrar">Email:</label>
+                    <input type="email" name="email_registrar" id="email_registrar" required placeholder="meu_email@email.com">
+                    <label for="senha_registrar">Senha:</label>
+                    <input type="password" name="senha_registrar" id="senha_registrar" minlength="8" required placeholder="*mínimo 8 caracteres">
+                    <input type="submit" value="Registrar" id="enviar_registro">
+        </article>
+        <article id="entrar">
+            <h1>Entrar</h1>
+                <label for="email_entrar">Email:</label>
+                <input type="email" name="email_entrar" id="email_entrar" required placeholder="meu_email@email.com">
+                <label for="senha_entrar">Senha:</label>
+                <input type="password" name="senha_entrar" id="senha_entrar" minlength="8" required  placeholder="*mínimo 8 caracteres">
+                <input type="submit" value="Entrar" id="enviar_entrar">
+        </article>
+        <button id="btn_apagar_registro">Apagar Registro</button>
+    </main>  
+    <script src="js/index.js"></script>
+</body>
+</html>
